@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>BlackJack</title>
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    
-    <script src="/script.js"></script>
+    <div class="game-container">
+        <h1>BlackJack</h1>
+        <p class="cards">Cards: <span id="cards-el">–</span></p>
+        <p class="sum">Sum: <span id="sum-el">0</span></p>
+        <p class="message" id="message-el"></p>
+        <button id="start-btn">Start Game</button>
+    </div>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
