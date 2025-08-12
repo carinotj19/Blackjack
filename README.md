@@ -4,10 +4,10 @@ A browser-based Blackjack game built with HTML, CSS, and JavaScript.
 
 ## 📂 Files Included
 
-- `index.html` – Main interface and layout of the game. :contentReference[oaicite:1]{index=1}  
-- `styles.css` – Styling for cards, buttons, and layout. :contentReference[oaicite:2]{index=2}  
-- `script.js` – Game logic including shuffling, dealing, hit/stand actions, and win/lose conditions. :contentReference[oaicite:3]{index=3}  
-- `.gitattributes` – Git configuration for handling end-of-line and other attributes. :contentReference[oaicite:4]{index=4}  
+- `index.html` – Main interface and layout of the game.
+- `styles.css` – Styling for cards, buttons, and layout.
+- `script.js` – Game logic including shuffling, dealing, hit/stand actions, and win/lose conditions.  
+- `.gitattributes` – Git configuration for handling end-of-line and other attributes.
 
 ## 🚀 Getting Started
 
