@@ -1,21 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>BlackJack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div class="game-container">
-        <h1>BlackJack</h1>
-        <p class="cards">Cards: <span id="cards-el">–</span></p>
-        <p class="sum">Sum: <span id="sum-el">0</span></p>
-        <p class="message" id="message-el"></p>
-        <button id="start-btn">Start Game</button>
-    </div>
+    <main class="page">
+        <section class="table" aria-live="polite">
+            <header class="table__header">
+                <span class="eyebrow">Classic card table</span>
+                <h1>BlackJack</h1>
+                <p class="tagline">Push your luck to 21, but do not bust.</p>
+            </header>
+
+            <div class="status">
+                <div class="status__item">
+                    <span class="label">Cards</span>
+                    <span class="value cards" id="cards-el">--</span>
+                </div>
+                <div class="status__item">
+                    <span class="label">Sum</span>
+                    <span class="value sum" id="sum-el">0</span>
+                </div>
+            </div>
+
+            <p class="message" id="message-el"></p>
+
+            <div class="actions">
+                <button id="start-btn">Start Game</button>
+                <span class="helper">Click again to draw a card.</span>
+            </div>
+        </section>
+    </main>
 
     <script src="script.js" defer></script>
 </body>

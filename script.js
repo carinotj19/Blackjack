@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
             msgEl.textContent = "You got BlackJack!";
             hasBlackJack = true;
         } else {
-            msgEl.textContent = "You’re out of the game!";
+            msgEl.textContent = "You're out of the game!";
             isAlive = false;
         }
         startBtn.textContent = hasBlackJack ? "Restart" : "Start Game";
