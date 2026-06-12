@@ -2,6 +2,9 @@
 
 A browser-based Blackjack game built with HTML, CSS, and JavaScript.  
 
+## Preview
+https://carinotj19.github.io/Blackjack/
+
 ## 📂 Files Included
 
 - `index.html` – Main interface and layout of the game.
